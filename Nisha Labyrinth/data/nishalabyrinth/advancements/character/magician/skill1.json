@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:warped_fungus_on_a_stick",
+        "nbt": "{CustomModelData:1006547}"
+      },
+      "title": "텔레포트(우클 발동,1회) ",
+      "description": {
+        "text": "즉시 가장 가까운 팀원에게 순간이동 한다",
+        "color": "white"
+      },
+      "background": "magician",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/magician/magician",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

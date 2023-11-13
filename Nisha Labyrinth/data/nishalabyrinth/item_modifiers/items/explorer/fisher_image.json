@@ -1,0 +1,24 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "낚시꾼"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "구조형, 도주형",
+          "color": "green",
+          "italic": true
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:106001,NL:1b,Icon:1b,CMD:{Icon:106001,Illust:106007}}"
+    }
+  ]
+  

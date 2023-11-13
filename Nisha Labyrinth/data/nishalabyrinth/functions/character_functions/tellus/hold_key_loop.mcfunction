@@ -1,0 +1,8 @@
+execute if entity @e[type=glow_item_frame,tag=NL_used,tag=tellus_tp,nbt={Facing:1b}] positioned as @e[type=marker,tag=tellus_tp,limit=1] as @e[type=glow_item_frame,tag=NL,sort=nearest,limit=1,distance=..5,tag=!NL_used,nbt={Facing:1b}] unless entity @s[tag=tellus_tp] run function nishalabyrinth:character_functions/tellus/change_mark
+
+execute unless entity @e[type=glow_item_frame,tag=NL_used,tag=tellus_tp,nbt={Facing:1b}] positioned as @e[type=marker,tag=tellus_tp,limit=1] run data merge entity @e[nbt={Facing:1b},type=glow_item_frame,tag=!NL_used,sort=nearest,limit=1] {Tags:["NL","NL_used","tellus_tp"]}
+execute unless entity @e[type=armor_stand,tag=tellus_tp] positioned as @e[type=glow_item_frame,tag=tellus_tp,limit=1,sort=nearest,nbt={Facing:1b}] run summon armor_stand ~ ~0.1 ~ {Team:"gate_keeper",NoGravity:1b,Invulnerable:1b,Glowing:1b,Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["tellus_tp","NL"],HandItems:[{id:"minecraft:iron_axe",Count:1b},{}]}
+#execute as @e[type=armor_stand,tag=tellus_tp] positioned as @s run tp @s ~ ~ ~ facing entity @a[team=gate_keeper,tag=tellus,limit=1]
+#execute unless entity @e[type=armor_stand,tag=tellus_tp] positioned as @e[type=glow_item_frame,tag=tellus_tp,limit=1,sort=nearest,nbt={Facing:1b}] run summon armor_stand ~ ~0.1 ~ {Small:1b,Team:"gate_keeper",NoGravity:1b,Invulnerable:1b,Glowing:1b,Tags:["tellus_tp","NL"]}
+execute as @e[type=glow_item_frame,tag=tellus_tp,limit=1,sort=nearest,nbt={Facing:1b}] run team join NL_red @s
+execute if score @a[team=gate_keeper,tag=tellus,limit=1] NL_temp matches 1.. run schedule function nishalabyrinth:character_functions/tellus/hold_key_loop 9t replace

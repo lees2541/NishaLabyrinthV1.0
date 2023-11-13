@@ -1,0 +1,43 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "검의 파편"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "검의 파편",
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "text": "생명석의 힘으로 재각성 할 수 있다.",
+          "color": "white",
+          "italic": true
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:nishalabyrinth"
+      },
+      "ops": [
+        {
+          "source": "sm_cool1",
+          "target": "cDamageMax",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{SM_wp:1b,CustomModelData:1003055,Disabled:1b,NL:1b}"
+    }
+  ]
+  

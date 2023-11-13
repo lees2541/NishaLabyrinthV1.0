@@ -1,0 +1,118 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:written_book",
+      "nbt": "{CustomModelData:302001}"
+    },
+    "title": "도서관",
+    "description": "무언가들이 배회하고 있습니다",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "stairsA": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 704,
+                "max": 713.8
+              },
+              "y": {
+                "min": 39,
+                "max": 52.5
+              },
+              "z": {
+                "min": 563,
+                "max": 573.2
+              }
+            }
+          }
+        }
+      }
+    },
+    "stairsB": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 700.9,
+                "max": 708
+              },
+              "y": {
+                "min": 40,
+                "max": 47
+              },
+              "z": {
+                "min": 599,
+                "max": 602
+              }
+            }
+          }
+        }
+      }
+    },
+    "main": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 687,
+                "max": 721
+              },
+              "y": {
+                "min": 33,
+                "max": 43
+              },
+              "z": {
+                "min": 560,
+                "max": 602
+              }
+            }
+          }
+        }
+      }
+    },
+    "prison": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 707.2,
+                "max": 708.8
+              },
+              "y": {
+                "min": 38.8,
+                "max": 44.8
+              },
+              "z": {
+                "min": 580.2,
+                "max": 581.8
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "stairsA",
+      "stairsB",
+      "main",
+      "prison"
+    ]
+  ],
+  "rewards": {
+    "function": "nishalabyrinth:system/library/in_the_lib"
+  }
+}

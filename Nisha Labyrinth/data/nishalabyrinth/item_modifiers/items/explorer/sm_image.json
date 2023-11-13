@@ -1,0 +1,40 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "검객"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "구조형, 생존형",
+          "color": "green",
+          "italic": true
+        },
+        {
+          "text": "패시브",
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "text": "스타터: 제단에 첫번째 흔적을 바치기 전까지 이동속도가 상승합니다.",
+          "color": "white"
+        },
+        {
+          "text": "진화하는 검: 생명석을 얻을 때 마다 검이 진화합니다."
+        },
+        {
+          "text": "3단계까지 진화하며 진화를 할 수록 스킬을 배웁니다",
+          "color": "white"
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:101001,NL:1b,Icon:1b,CMD:{Icon:101001,Illust:101005}}"
+    }
+  ]
+  

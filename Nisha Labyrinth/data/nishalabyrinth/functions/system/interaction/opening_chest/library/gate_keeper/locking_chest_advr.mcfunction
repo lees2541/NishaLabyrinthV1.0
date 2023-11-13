@@ -1,0 +1,1 @@
+advancement revoke @a[team=gate_keeper] only nishalabyrinth:system/interaction/chest/locking_chest

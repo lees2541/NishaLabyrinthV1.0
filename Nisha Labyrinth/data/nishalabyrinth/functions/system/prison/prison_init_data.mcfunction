@@ -1,0 +1,1 @@
+data merge storage nl:prison_init_data {CustomModelData:{prison_key:3000005,prison_key1:3000008,prison_key2:3000009,prison_key3:3000010,upgraded_prison_key:3000006,upgraded_prison_key1:3000011,upgraded_prison_key2:3000012,upgraded_prison_key3:3000013}}

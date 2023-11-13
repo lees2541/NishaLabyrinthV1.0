@@ -1,0 +1,23 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": "주술사"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "도주형",
+        "color": "green",
+        "italic": true
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CustomModelData:102001,NL:1b,Icon:1b,CMD:{Icon:102001,Illust:102002}}"
+  }
+]

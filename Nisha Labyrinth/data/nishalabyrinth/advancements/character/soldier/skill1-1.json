@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:paper"
+      },
+      "title": {
+        "text": "의뢰모집(패시브)",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "의뢰시간 동안 용병은 의뢰인이 받는 대미지의 절반을 대신 받습니다",
+        "color": "white",
+        "extra": [
+          "\n",
+          {
+            "text": "의뢰를 받으면 생기는 화살을 장전해 날리면, 주변 팀원들과 함께 화살이 떨어진 곳으로 이동합니다",
+            "color": "white"
+          }
+        ]
+      },
+      "background": "soldier",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/soldier/skill1",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

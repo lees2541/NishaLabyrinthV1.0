@@ -1,0 +1,39 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "nishalabyrinth:system/hit/hit_by_gk"
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"allay\",\"NL\"]}",
+          "vehicle": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"NL\",\"allay\"]}",
+            "vehicle": {
+              "type": "minecraft:allay",
+              "nbt": "{Tags:[\"NL\",\"area\",\"auto\"]}"
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"allay\",\"NL\"]}",
+          "vehicle": {
+            "type": "minecraft:allay",
+            "nbt": "{Tags:[\"NL\",\"area\",\"auto\"]}"
+          }
+        }
+      }
+    ]
+  }
+]

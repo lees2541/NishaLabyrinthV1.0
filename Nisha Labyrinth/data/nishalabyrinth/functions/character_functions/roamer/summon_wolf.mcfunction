@@ -1,0 +1,5 @@
+execute as @a[team=gate_keeper,tag=roamer,scores={NL_fstick_used=1..,NL_cool1=..0}] at @a[team=explorer,tag=trap_detected,sort=nearest,limit=1] at @e[type=glow_item_frame,sort=nearest,limit=1,distance=1..5] run summon wolf ~ ~1 ~ {Invulnerable:1b,Glowing:1b,AngerTime:300,Tags:["pet"],Attributes:[{Name:generic.follow_range,Base:30},{Name:generic.movement_speed,Base:0.45},{Name:generic.attack_damage,Base:3}]}
+execute at @e[type=wolf,tag=pet] run playsound minecraft:wolfen master @a
+#execute as @a[team=gate_keeper,tag=roamer,scores={NL_fstick_used=1..,NL_cool1=..0}] run data modify entity @e[type=wolf,tag=pet,distance=..1,limit=1] Owner set from entity @s UUID 
+execute as @a[team=gate_keeper,tag=roamer,limit=1] run data modify entity @e[tag=pet,type=wolf,limit=1] AngryAt set from entity @a[team=explorer,tag=trap_detected,sort=nearest,limit=1] UUID
+schedule function nishalabyrinth:character_functions/roamer/kill_wolf 10s

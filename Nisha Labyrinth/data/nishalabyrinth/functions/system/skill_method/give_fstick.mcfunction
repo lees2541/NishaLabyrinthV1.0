@@ -1,0 +1,1 @@
+give @p warped_fungus_on_a_stick{cDamage:5,cDamageMax:30,NL:1b}

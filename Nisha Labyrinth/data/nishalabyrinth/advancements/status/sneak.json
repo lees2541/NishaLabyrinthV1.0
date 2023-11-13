@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "sneak",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {},
+            "flags": {
+              "is_sneaking": true
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:system/status_adv/sneak"
+    }
+  }
+  

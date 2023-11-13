@@ -1,0 +1,44 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 0.3,
+        "operation": "addition",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "",
+        "amount": 30,
+        "operation": "addition",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": "대식가"
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:nishalabyrinth"
+    },
+    "ops": [
+      {
+        "source": "cp_cool1",
+        "target": "cDamageMax",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{HideFlags:127,CustomModelData:1007563,glutton:1b,CanDestroy:[\"minecraft:lime_concrete_powder\",\"minecraft:soul_campfire\"],NL:1b}"
+  }
+]

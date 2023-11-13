@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:202002}"
+      },
+      "title": {
+        "text": "사냥 모드(우클릭 발동, 온오프)",
+        "color": "white",
+        "bold": true
+      },
+      "description": {
+        "text": "[사냥모드] 활성화 시",
+        "color": "white",
+        "bold": true,
+        "extra": [
+          "\n",
+          {
+            "text": "이동속도 증가, 실명상태, 영혼모래에서 이속증가"
+          }
+        ]
+      },
+      "background": "sniffer",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/sniffer/skill2",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

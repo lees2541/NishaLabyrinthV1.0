@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:106003}"
+      },
+      "title": "낚시대",
+      "description": {
+        "text": "낚시로 식량을 구할 수 있다.",
+        "color": "white"
+      },
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/fisher/fisher",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

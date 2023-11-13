@@ -1,0 +1,3 @@
+execute as @a[team=gate_keeper,tag=bush] at @s unless block ~ ~ ~ minecraft:tall_grass run tag @s remove bush
+execute at @a[team=gate_keeper,tag=bush] if entity @a[team=explorer,distance=..0.5] run scoreboard players set @a[team=explorer,distance=..0.5] gk_touch 1
+execute at @a[team=gate_keeper,tag=bush] if entity @a[team=explorer,distance=..0.5] run scoreboard players set @a[team=gate_keeper,tag=bush] gk_attack 1

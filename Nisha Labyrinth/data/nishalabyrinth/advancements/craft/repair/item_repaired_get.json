@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "",
+      "description": "",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "nishalabyrinth:craft/repair/item_repaired",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player",
+            "type_specific": {
+              "type": "player",
+              "advancements": {
+                "nishalabyrinth:craft/repair/item_repaired": true
+              }
+            }
+          },
+          "items": [
+            {
+              "items": [
+                "minecraft:iron_nugget"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:item/craft/repair_item_get",
+      "loot": [
+        "minecraft:craft/repair_item_ar"
+      ]
+    }
+  }
+  

@@ -1,0 +1,46 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:203002}"
+      },
+      "title": {
+        "text": "도살",
+        "color": "red",
+        "bold": true
+      },
+      "description": {
+        "text": "[돌진효과]:",
+        "color": "dark_green",
+        "bold": false,
+        "extra": [
+          "\n",
+          {
+            "text": "이동속도 초대폭 증가",
+            "color": "white",
+            "bold": false,
+            "extra": [
+              "\n",
+              {
+                "text": "돌진은 탐험가에게 부딪히면 낙인 1과 이동시간에 비례해 대미지를 준다",
+                "color": "white",
+                "bold": false
+              }
+            ]
+          }
+        ]
+      },
+      "background": "chopper",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/chopper/skill3",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

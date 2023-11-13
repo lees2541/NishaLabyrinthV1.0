@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:egg"
+      },
+      "title": {
+        "text": "덫 (설치형)",
+        "color": "red",
+        "bold": true
+      },
+      "description": {
+        "text": "세피로튼 위에 덫을 설치한다(F키로 하나씩 회수가능)",
+        "color": "white",
+        "extra": [
+          "\n",
+          {
+            "text": "한번에 설치 가능한 트랩의 수: 3",
+            "color": "white",
+            "extra": [
+              "\n"
+            ]
+          },
+          {
+            "text": "생명석을 캘 때마다 최대 설치가능 개수가 하나씩 최대 6개까지 늘어난다",
+            "color": "gray",
+            "italic": true
+          }
+        ]
+      },
+      "background": "roamer",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/roamer/roamer",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

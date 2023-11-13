@@ -1,0 +1,18 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "수감자"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:303001,NL:1b}"
+    }
+  ]
+  

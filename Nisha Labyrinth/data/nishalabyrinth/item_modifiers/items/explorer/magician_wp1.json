@@ -1,0 +1,25 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "수정구"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "텔레포트(1회)",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:1006547,MG_wp:1b,Disabled:0b,NL:1b}"
+    }
+  ]
+  

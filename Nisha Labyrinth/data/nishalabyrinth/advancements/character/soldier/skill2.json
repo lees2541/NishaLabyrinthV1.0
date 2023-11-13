@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:104002}"
+      },
+      "title": {
+        "text": "대쉬(F 발동)",
+        "color": "white",
+        "bold": true
+      },
+      "description": {
+        "text": "잠시동안 발광상태가 되며, 이동속도가 대폭 상승합니다",
+        "color": "white",
+        "extra": [
+          "\n",
+          {
+            "text": "배회자와의 거리가 2단계 감지범위 이하일땐 쿨타임이 돌지 않는다",
+            "color": "gray"
+          }
+        ]
+      },
+      "background": "soldier",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/soldier/soldier",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

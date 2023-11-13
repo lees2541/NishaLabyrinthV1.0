@@ -1,0 +1,42 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "용병"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "구조형, 도주형",
+          "color": "green",
+          "italic": true
+        },
+        {
+          "text": "패시브",
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "text": "[의뢰 모집]: 탐험가가 생명석을 캤을 때, 팀원들은 의뢰서를 얻는다.",
+          "color": "white"
+        },
+        {
+          "text": "팀원이 의뢰서를 들고 용병을 때리면 의뢰가 수락된다.",
+          "color": "gray",
+          "italic": true
+        },
+        {
+          "text": "의뢰를 수락한 후 제한시간 내에 석궁을 쏠 시 화살이 박히는 지점으로 주변 팀원과 함께 텔레포트 한다",
+          "color": "gray"
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:104001,NL:1b,Icon:1b,CMD:{Icon:104001,Illust:104004}}"
+    }
+  ]
+  

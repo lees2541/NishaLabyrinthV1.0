@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": "성공",
+    "description": "",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "nishalabyrinth:swordsman",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "NL_carrotst_used": 0
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nishalabyrinth:system/info_book/cheat/give_lifestone"
+  }
+}

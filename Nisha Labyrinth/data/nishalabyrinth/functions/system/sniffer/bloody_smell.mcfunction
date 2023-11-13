@@ -1,0 +1,2 @@
+execute at @a[team=explorer,tag=blood_sign] unless entity @e[type=area_effect_cloud,tag=trace_aged,distance=..0.1] run summon area_effect_cloud ~ ~ ~ {Particle:"campfire_cosy_smoke",ReapplicationDelay:1,Radius:0.3f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0f,Age:1,WaitTime:70,Motion:[0.0,0.0,0.0],Tags:["trace_aged"]}
+#execute at @a[team=explorer,tag=blood_sign] run particle minecraft:campfire_cosy_smoke ~ ~1 ~ 0.1 0.1 0.1 0 1 force

@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:301001}"
+      },
+      "title": {
+        "text": "생존본능(패시브)",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "문이 열렸을 때, 이동속도가 증가한다",
+        "color": "white"
+      },
+      "background": "survivor",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/survivor/survivor",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

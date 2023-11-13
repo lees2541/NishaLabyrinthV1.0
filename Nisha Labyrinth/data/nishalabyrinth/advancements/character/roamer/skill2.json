@@ -1,0 +1,40 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:201002}"
+      },
+      "title": {
+        "text": "사냥감 추적(우클릭 발동, 40초)",
+        "color": "red",
+        "bold": true
+      },
+      "description": {
+        "text": "골절상태나 발광상태인 탐험가가 있어야 발동된다",
+        "color": "white",
+        "extra": [
+          "\n",
+          {
+            "text": "늑대를 소환한다",
+            "color": "white"
+          },
+          "\n",
+          {
+            "text": "그 늑대는 일정범위 내의 골절상태나 발광상태인 적을 지정해 10초간 쫓아간다"
+          }
+        ]
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/gate_keeper.png",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/roamer/roamer",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

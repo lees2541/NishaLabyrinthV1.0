@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:carrot_on_a_stick",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "nishalabyrinth:items/library/tp_lib_orb"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,29 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:effects_changed",
+        "conditions": {
+          "player": {
+            "team": "explorer",
+            "effects": {
+              "minecraft:glowing": {
+                "visible": true
+              }
+            }
+          },
+          "effects": {
+            "minecraft:glowing": {
+              "duration": {
+                "max": 10
+              },
+              "visible": true
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:system/shader/gui/glowing_off"
+    }
+  }
+  

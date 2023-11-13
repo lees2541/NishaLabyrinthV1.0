@@ -1,0 +1,9 @@
+{
+    "parent": "nishalabyrinth:system/final",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

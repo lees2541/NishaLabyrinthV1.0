@@ -1,0 +1,20 @@
+execute if entity @e[type=armor_stand,tag=bobber,tag=area1] as @s[tag=area1] at @s facing entity @e[type=armor_stand,tag=bobber,tag=area1,limit=1,sort=nearest] eyes unless block ^ ^ ^0.3 stone unless block ^ ^ ^0.3 stone_stairs unless block ^ ^ ^0.3 grass unless block ^ ^ ^0.3 stone_slab unless block ^ ^ ^0.3 diorite run teleport ^ ^ ^0.1
+execute unless entity @e[type=armor_stand,tag=bobber,tag=area1] as @s[tag=area1] at @s facing entity @a[team=!gate_keeper,scores={flashlight=1},limit=1,sort=nearest,distance=2.5..,tag=area1] eyes unless block ^ ^ ^0.3 stone unless block ^ ^ ^0.3 stone_stairs unless block ^ ^ ^0.3 grass unless block ^ ^ ^0.3 stone_slab unless block ^ ^ ^0.3 diorite run teleport ^ ^ ^0.1
+execute as @s[tag=area1] at @s unless entity @e[team=!gate_keeper,scores={flashlight=1},tag=area1] facing entity @e[type=marker,limit=1,tag=area1,distance=0.3..] eyes run teleport ^ ^ ^0.1
+
+execute if entity @e[type=armor_stand,tag=bobber,tag=area5] as @s[tag=area5] at @s facing entity @e[type=armor_stand,tag=bobber,tag=area5,limit=1,sort=nearest] eyes unless block ^ ^ ^0.3 stone unless block ^ ^ ^0.3 stone_stairs unless block ^ ^ ^0.3 grass unless block ^ ^ ^0.3 stone_slab unless block ^ ^ ^0.3 diorite run teleport ^ ^ ^0.1
+execute unless entity @e[type=armor_stand,tag=bobber,tag=area5] as @s[tag=area5] at @s facing entity @a[team=!gate_keeper,scores={flashlight=1},limit=1,sort=nearest,distance=2.5..,tag=area5] eyes unless block ^ ^ ^0.3 stone unless block ^ ^ ^0.3 stone_stairs unless block ^ ^ ^0.3 grass unless block ^ ^ ^0.3 stone_slab unless block ^ ^ ^0.3 diorite run teleport ^ ^ ^0.1
+execute as @s[tag=area5] at @s unless entity @e[team=!gate_keeper,scores={flashlight=1},tag=area5] facing entity @e[type=marker,limit=1,tag=area5,distance=0.3..] eyes run teleport ^ ^ ^0.1
+
+execute if entity @e[type=armor_stand,tag=bobber,tag=area3] as @s[tag=area3] at @s facing entity @e[type=armor_stand,tag=bobber,tag=area3,limit=1,sort=nearest] eyes unless block ^ ^ ^0.3 stone unless block ^ ^ ^0.3 stone_stairs unless block ^ ^ ^0.3 grass unless block ^ ^ ^0.3 stone_slab unless block ^ ^ ^0.3 diorite run teleport ^ ^ ^0.1
+execute unless entity @e[type=armor_stand,tag=bobber,tag=area3] as @s[tag=area3] at @s facing entity @a[team=!gate_keeper,scores={flashlight=1},limit=1,sort=nearest,distance=2.5..,tag=area3] eyes unless block ^ ^ ^0.3 stone unless block ^ ^ ^0.3 stone_stairs unless block ^ ^ ^0.3 grass unless block ^ ^ ^0.3 stone_slab unless block ^ ^ ^0.3 diorite run teleport ^ ^ ^0.1
+execute as @s[tag=area3] at @s unless entity @e[team=!gate_keeper,scores={flashlight=1},tag=area3] facing entity @e[type=marker,limit=1,tag=area3,distance=0.3..] eyes run teleport ^ ^ ^0.1
+
+execute if entity @e[type=armor_stand,tag=bobber,tag=area4] as @s[tag=area4] at @s facing entity @e[type=armor_stand,tag=bobber,tag=area4,limit=1,sort=nearest] eyes unless block ^ ^ ^0.3 stone unless block ^ ^ ^0.3 stone_stairs unless block ^ ^ ^0.3 grass unless block ^ ^ ^0.3 stone_slab unless block ^ ^ ^0.3 diorite run teleport ^ ^ ^0.1
+execute unless entity @e[type=armor_stand,tag=bobber,tag=area4] as @s[tag=area4] at @s facing entity @a[team=!gate_keeper,scores={flashlight=1},limit=1,sort=nearest,distance=2.5..,tag=area4] eyes unless block ^ ^ ^0.3 stone unless block ^ ^ ^0.3 stone_stairs unless block ^ ^ ^0.3 grass unless block ^ ^ ^0.3 stone_slab unless block ^ ^ ^0.3 diorite run teleport ^ ^ ^0.1
+execute as @s[tag=area4] at @s unless entity @e[team=!gate_keeper,scores={flashlight=1},tag=area4] facing entity @e[type=marker,limit=1,tag=area4,distance=0.3..] eyes run teleport ^ ^ ^0.1
+
+execute at @s[tag=area1,tag=return] if entity @e[type=marker,tag=area1,distance=..0.5] run tag @s remove return
+execute at @s[tag=area5,tag=return] if entity @e[type=marker,tag=area5,distance=..0.5] run tag @s remove return
+execute at @s[tag=area3,tag=return] if entity @e[type=marker,tag=area3,distance=..0.5] run tag @s remove return
+execute at @s[tag=area4,tag=return] if entity @e[type=marker,tag=area4,distance=..0.5] run tag @s remove return

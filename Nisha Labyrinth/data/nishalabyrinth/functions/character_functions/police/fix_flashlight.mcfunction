@@ -1,0 +1,2 @@
+execute as @a[team=explorer,tag=police,nbt={SelectedItem:{id:"minecraft:iron_nugget"}}] run item replace entity @s weapon.mainhand with carrot_on_a_stick
+execute as @a[team=explorer,tag=police,nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}},nbt=!{SelectedItem:{tag:{flashlight:1b}}}] run function nishalabyrinth:character_functions/police/overriding_wp

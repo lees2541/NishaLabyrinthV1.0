@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "nishalabyrinth:system/interaction/patrol/interact_patrol",
+    "criteria": {
+      "star_catch": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "player": {
+            "team": "prisoner"
+          },
+          "entity": {
+            "type": "interaction",
+            "nbt": "{Tags:[\"patrol\",\"NL\",\"route_A\"]}"
+          }
+        }
+      },
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "star_catch"
+      ],
+      [
+        "impossible"
+      ]
+    ],
+    "rewards": {
+      "function": "nishalabyrinth:system/interaction/patrol/star_catch/star_catch_on_a_adv"
+    }
+  }
+  

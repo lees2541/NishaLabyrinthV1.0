@@ -1,0 +1,3 @@
+execute at @s[predicate=nishalabyrinth:sprinting] if entity @e[type=glow_item_frame,tag=NL,tag=!NL_used,distance=..0.4] run effect give @s glowing 2
+#execute at @s[predicate=nishalabyrinth:sprinting] as @e[type=glow_item_frame, tag=NL_used,tag=trace,distance=..0.5] r
+#execute at @s[predicate=nishalabyrinth:sprinting] as @e[type=glow_item_frame, tag=NL_used,tag=trace,distance=..0.5] run scoreboard players set @s NL_timer 6

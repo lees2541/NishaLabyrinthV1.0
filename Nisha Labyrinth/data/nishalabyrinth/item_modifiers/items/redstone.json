@@ -1,0 +1,54 @@
+[
+  {
+    "function": "minecraft:set_count",
+    "count": {
+      "type": "minecraft:score",
+      "target": {
+        "type": "minecraft:fixed",
+        "name": "#bonus"
+      },
+      "score": "NL_redstone_bonus",
+      "scale": 1
+    },
+    "add": false,
+    "conditions": [
+      {
+        "condition": "minecraft:value_check",
+        "value": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "r"
+          },
+          "score": "NL_temp",
+          "scale": 1
+        },
+        "range": 1
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{NL:1b}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "제단에 바치면 문을 열 수 있다",
+        "color": "white"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "text": "주술의 흔적",
+      "color": "red",
+      "bold": true
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "nl:prison_init_data"
+      },
+      "ops": [
+        {
+          "source": "CustomModelData.upgraded_prison_key2",
+          "target": "CustomModelData",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,1 @@
+execute as @a[team=explorer,distance=..11] run scoreboard players add @a[team=gate_keeper,distance=..11] NL_being_lighted 1

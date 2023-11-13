@@ -1,0 +1,52 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": "황천도"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "황천도(1 단계)",
+        "color": "blue",
+        "bold": true
+      },
+      {
+        "text": "스킬: 반격 (1회)",
+        "italic": false
+      },
+      {
+        "text": "2초간 배회자의 공격을 반격할 수 있다.",
+        "color": "white",
+        "italic": false
+      },
+      {
+        "text": "반격에 성공시 배회자는 잠시 스턴된다",
+        "color": "white",
+        "bold": false,
+        "italic": true
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "minecraft:nishalabyrinth"
+    },
+    "ops": [
+      {
+        "source": "sm_cool1",
+        "target": "cDamageMax",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{SM_wp:1b,CustomModelData:1003195,Disabled:0b,NL:1b}"
+  }
+]

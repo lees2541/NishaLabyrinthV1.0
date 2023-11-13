@@ -1,0 +1,5 @@
+{
+    "function": "minecraft:set_nbt",
+    "tag": "{Damage:0,NL:1b}"
+  }
+  

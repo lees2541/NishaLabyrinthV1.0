@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "nishalabyrinth:system/drop/cancel_drop",
+    "criteria": {
+      "drop_item": {
+        "trigger": "minecraft:thrown_item_picked_up_by_player",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "nbt": "{NL:1b}"
+          }
+        }
+      },
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "drop_item"
+      ],
+      [
+        "impossible"
+      ]
+    ],
+    "rewards": {
+      "function": "nishalabyrinth:system/drop/drop_item/info_book/drop_info_book"
+    }
+  }
+  

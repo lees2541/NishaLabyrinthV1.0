@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:105001}"
+      },
+      "title": "도둑",
+      "description": {
+        "text": "(특수형)",
+        "color": "green",
+        "italic": true,
+        "extra": [
+          "\n",
+          {
+            "text": "[난이도: 중]",
+            "color": "red",
+            "italic": true
+          },
+          "\n",
+          {
+            "text": "손전등을 비춰 배회자를 방해하고 은신으로 은밀하게 행동하는 캐릭터",
+            "color": "white"
+          }
+        ]
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/explorer.png",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

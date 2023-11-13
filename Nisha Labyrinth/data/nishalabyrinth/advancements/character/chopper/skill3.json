@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:203002}"
+      },
+      "title": {
+        "text": "도살 (F 발동)",
+        "color": "red",
+        "bold": true
+      },
+      "description": {
+        "text": "쵸퍼가 희생양을 위해 3초동안 기도합니다. 이때 탐험가는 잠시 휘청거리며 모두의 위치가 보입니다.",
+        "color": "white",
+        "extra": [
+          "\n",
+          {
+            "text": "기도가 끝나면 표효하며 5초간 돌진합니다",
+            "color": "white"
+          }
+        ]
+      },
+      "background": "chopper",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/chopper/chopper",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

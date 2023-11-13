@@ -1,0 +1,33 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": "약해진 손전등"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "배터리가 없어 앞만 겨우 보이는 정도이다.",
+        "color": "white"
+      },
+      "\n",
+      {
+        "text": "생명석의 힘으로 고칠 수 있을 거 같다.",
+        "color": "blue",
+        "italic": true
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{flashlight:0b,Disabled:1b,CustomModelData:1033001,NL:1b}"
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.05,
+    "add": false
+  }
+]

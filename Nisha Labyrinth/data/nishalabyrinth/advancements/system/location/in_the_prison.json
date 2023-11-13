@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:written_book",
+      "nbt": "{CustomModelData:302004}"
+    },
+    "title": "감옥",
+    "description": "나올 수 있을까요...",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "nishalabyrinth:system/location/in_the_lib",
+  "criteria": {
+    "area1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 709,
+                "max": 716.8
+              },
+              "y": {
+                "min": 37.8,
+                "max": 41.3
+              },
+              "z": {
+                "min": 578.2,
+                "max": 587.8
+              }
+            }
+          }
+        }
+      }
+    },
+    "area2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 704.2,
+                "max": 709.1
+              },
+              "y": {
+                "min": 37.8,
+                "max": 41.3
+              },
+              "z": {
+                "min": 579.2,
+                "max": 587.2
+              }
+            }
+          }
+        }
+      }
+    },
+    "area3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 707.2,
+                "max": 708.8
+              },
+              "y": {
+                "min": 38.8,
+                "max": 44.8
+              },
+              "z": {
+                "min": 579.2,
+                "max": 582.8
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "area1",
+      "area2",
+      "area3"
+    ]
+  ],
+  "rewards": {
+    "function": "nishalabyrinth:system/prison/in_the_prison"
+  }
+}

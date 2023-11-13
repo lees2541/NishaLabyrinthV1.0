@@ -1,0 +1,1 @@
+execute as @s[team=gate_keeper,tag=tellus,scores={NL_temp=1..}] run function nishalabyrinth:character_functions/tellus/summon_marker

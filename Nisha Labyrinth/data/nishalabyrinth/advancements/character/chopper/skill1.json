@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cooked_beef"
+      },
+      "title": {
+        "text": "끝없는 허기 (패시브)",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "포만감이 매우 빨리 감소한다, 상시 둔화 적용",
+        "color": "white"
+      },
+      "background": "chopper",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/chopper/chopper",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

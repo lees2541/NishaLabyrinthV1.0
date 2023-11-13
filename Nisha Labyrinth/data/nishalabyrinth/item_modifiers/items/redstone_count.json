@@ -1,0 +1,14 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "score": {
+          "name": "r",
+          "objective": "NL_red_progress_left",
+          "value": "1"
+        }
+      }
+    }
+  ]
+  

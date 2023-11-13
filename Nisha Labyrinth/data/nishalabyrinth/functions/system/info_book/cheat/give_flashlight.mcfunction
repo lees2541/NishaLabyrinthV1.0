@@ -1,0 +1,1 @@
+execute as @s[team=explorer] run function nishalabyrinth:item/explorer/flashlight

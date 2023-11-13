@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:101002}"
+      },
+      "title": "반격",
+      "description": "(우클릭 발동, 1단계 검 이상) 3초동안 반격태세에 들어간다.  반격 성공 시 1회 대미지 방어",
+      "background": "swordsman",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/swordsman/swordsman",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

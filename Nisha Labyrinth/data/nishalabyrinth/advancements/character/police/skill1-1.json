@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:emerald"
+      },
+      "title": "손전등(패시브)",
+      "description": {
+        "text": "거리 상관없이 배회자를 비추면 이동속도가 증가하고, 배회자가 발광상태가 된다",
+        "color": "white",
+        "extra": [
+          "\n"
+        ]
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/police/skill1",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

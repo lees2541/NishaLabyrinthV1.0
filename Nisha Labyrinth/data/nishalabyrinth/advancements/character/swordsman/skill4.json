@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:101004}"
+      },
+      "title": "진화하는 검(패시브)",
+      "description": "생명석을 얻을 때 마다 검이 진화합니다 (최대 3단계)",
+      "background": "swordsman",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/swordsman/swordsman",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

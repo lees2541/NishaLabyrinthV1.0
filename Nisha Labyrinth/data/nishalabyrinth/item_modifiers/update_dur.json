@@ -1,0 +1,30 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:nishalabyrinth"
+      },
+      "ops": [
+        {
+          "source": "cDamage",
+          "target": "cDamage",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_damage",
+      "damage": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": ".damage"
+        },
+        "score": "NL_use_skill",
+        "scale": 0.01
+      },
+      "add": false
+    }
+  ]
+  

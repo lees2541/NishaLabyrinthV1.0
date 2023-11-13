@@ -1,0 +1,1 @@
+give @p carrot_on_a_stick{display:{Name:'{"text":"손전등","color":"white","bold":true}'},flashlight:1b,CustomModelData:1033000,NL:1b} 1

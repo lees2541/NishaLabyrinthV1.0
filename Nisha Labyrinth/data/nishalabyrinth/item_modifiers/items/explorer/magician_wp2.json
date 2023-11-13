@@ -1,0 +1,29 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "부서진 수정구"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "부서진 수정구이다",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "생명석과 조합해 고칠 수 있을 거 같다",
+          "color": "white"
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:1006548,Disabled:1b,NL:1b}"
+    }
+  ]
+  

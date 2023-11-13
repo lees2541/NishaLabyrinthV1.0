@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:egg"
+      },
+      "title": {
+        "text": "골절(디버프)",
+        "color": "green",
+        "bold": true
+      },
+      "description": {
+        "text": "덫에 걸리면 즉시 낙인 1을 얻고, 4초간 스턴상태가 되며, 6초간 발광상태가 된다.",
+        "color": "white",
+        "extra": [
+          "\n",
+          {
+            "text": "그 후 그 탐험가는 골절상태가 되며, 120초간 점프를 할 수 없게 된다",
+            "color": "white"
+          }
+        ]
+      },
+      "background": "roamer",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/roamer/skill1",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

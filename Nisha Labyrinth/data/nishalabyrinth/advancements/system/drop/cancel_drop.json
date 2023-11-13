@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "",
+      "description": "",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:thrown_item_picked_up_by_player",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player"
+          },
+          "entity": {
+            "type": "minecraft:player"
+          },
+          "item": {
+            "nbt": "{NL:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:system/drop/cancel_drop_adv"
+    }
+  }
+  

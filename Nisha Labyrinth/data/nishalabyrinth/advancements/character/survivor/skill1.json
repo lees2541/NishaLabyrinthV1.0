@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:apple"
+      },
+      "title": {
+        "text": "식량보급(패시브)",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "일정시간마다, 생존가는 식량을 얻는다(170초)",
+        "color": "white"
+      },
+      "background": "survivor",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/survivor/survivor",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

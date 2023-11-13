@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:106006}"
+      },
+      "title": "긴급구조 (패시브)",
+      "description": {
+        "text": "아군이 표식에 근접했을 때, 아군은 낚시꾼의 위치로 이동한다.",
+        "color": "white"
+      },
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/fisher/fisher",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

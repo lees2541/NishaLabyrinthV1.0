@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:redstone"
+      },
+      "title": {
+        "text": "4단계",
+        "color": "white"
+      },
+      "description": {
+        "text": "제단에 제단의 흔적을 올릴떄마다 한 단계씩 증가한다",
+        "color": "white"
+      },
+      "background": "temple",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:system/3rd",
+    "criteria": {"k": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

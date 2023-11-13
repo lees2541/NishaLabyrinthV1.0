@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cooked_porkchop"
+      },
+      "title": {
+        "text": "고기공장 (패시브)",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "수상한 고기를 먹으면 10초간 이동속도 대폭 증가,도살 쿨 30초 감소",
+        "color": "white"
+      },
+      "background": "chopper",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/chopper/skill2",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

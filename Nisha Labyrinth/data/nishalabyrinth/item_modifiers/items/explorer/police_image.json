@@ -1,0 +1,40 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "도둑"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "특수형",
+          "color": "green",
+          "italic": true
+        },
+        {
+          "text": "패시브",
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "text": "[밤도둑]: 배회자와 일정거리 이상 떨어져 있을때 은신",
+          "color": "white"
+        },
+        {
+          "text": "[빛나는 눈]: 손전등을 들고 배회자를 응시하는 동안 배회자 발광상태",
+          "color": "white"
+        },
+        {
+          "text": "[은밀한 발놀림]: 손전등을 들고 배회자 응시하는 동안 이속증가"
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:105001,NL:1b,Icon:1b,CMD:{Icon:105001,Illust:105002}}"
+    }
+  ]
+  

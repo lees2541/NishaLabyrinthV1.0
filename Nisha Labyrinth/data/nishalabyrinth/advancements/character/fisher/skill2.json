@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:106005}"
+      },
+      "title": "대어낚기(생명석 소모)",
+      "description": {
+        "text": "표식으로 텔레포트한다. 이때 배회자가 찌 근처에 있을시엔 서로의 위치가 바뀐다.",
+        "color": "white",
+        "extra": [
+          "\n",
+          {
+            "text": "발동직전 위치에 파란 표식이 새겨진다.\n 5초안에 f를 한번 더 누를 시 돌아간다"
+          }
+        ]
+      },
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/fisher/fisher",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

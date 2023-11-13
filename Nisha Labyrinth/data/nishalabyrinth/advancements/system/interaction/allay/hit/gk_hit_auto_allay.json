@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:paper",
+      "nbt": "{CustomModelData:124343}"
+    },
+    "title": "잡았다",
+    "description": "",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "nishalabyrinth:system/interaction/allay/hit/gk_hit_allay",
+  "criteria": {
+    "gk_hit_auto_allay": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:interaction",
+                  "vehicle": {
+                    "type": "minecraft:interaction",
+                    "vehicle": {
+                      "type": "minecraft:allay",
+                      "nbt": "{Tags:[\"NL\",\"auto\"]}"
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:interaction",
+                  "nbt": "{Tags:[\"NL\",\"allay\"]}",
+                  "vehicle": {
+                    "type": "minecraft:allay",
+                    "nbt": "{Tags:[\"NL\",\"auto\"]}"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "nishalabyrinth:system/interaction/allay/hit_allay/gk_hit_auto_allay_adv"
+  }
+}

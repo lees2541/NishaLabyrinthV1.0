@@ -1,0 +1,30 @@
+{
+    "parent": "nishalabyrinth:system/interaction/allay/hit/hit_allay",
+    "criteria": {
+      "gk_hit_allay": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "player": {
+            "type": "minecraft:player",
+            "team": "gate_keeper"
+          },
+          "damage": {
+            "type": {
+              "direct_entity": {
+                "type": "minecraft:player",
+                "team": "gate_keeper"
+              }
+            }
+          },
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"NL\",\"allay\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:system/interaction/allay/hit_allay/gk_hit_allay_adv"
+    }
+  }
+  

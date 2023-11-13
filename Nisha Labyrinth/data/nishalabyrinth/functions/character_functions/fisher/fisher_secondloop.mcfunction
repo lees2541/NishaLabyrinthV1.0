@@ -1,0 +1,1 @@
+execute as @a[team=explorer,scores={NL_usedCod=1}] run effect give @s saturation 1 1 true

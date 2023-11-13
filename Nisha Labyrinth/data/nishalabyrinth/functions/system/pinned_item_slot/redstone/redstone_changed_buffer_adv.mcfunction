@@ -1,0 +1,1 @@
+advancement revoke @s only nishalabyrinth:system/pinned_item_slot/redstone/redstone_changed

@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone_button"
+      },
+      "title": {
+        "text": "뽑기코인",
+        "color": "white"
+      },
+      "description": {
+        "text": "상점에서 뽑기를 할 수 있습니다",
+        "color": "white"
+      },
+      "background": "temple",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:system/4th",
+    "criteria": {
+      "k": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": "",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "hit_allay": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"NL\",\"allay\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "nishalabyrinth:system/interaction/allay/hit_allay/hit_allay_adv"
+  }
+}

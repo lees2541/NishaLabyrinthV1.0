@@ -1,0 +1,1 @@
+advancement revoke @s only nishalabyrinth:system/hold_key/shield/hold_shield

@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:103001}"
+      },
+      "title": "생존가",
+      "description": {
+        "text": "(지원형)",
+        "color": "green",
+        "italic": true,
+        "extra": [
+          "\n",
+          {
+            "text": "[난이도: 하]",
+            "color": "red",
+            "italic": true
+          },
+          "\n",
+          {
+            "text": "음식 보급과 황금사과를 이용해 아군을 지원하는 캐릭터",
+            "color": "white"
+          }
+        ]
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/explorer.png",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

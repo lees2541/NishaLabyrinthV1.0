@@ -1,0 +1,26 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "score": {
+          "name": ".cool_left",
+          "objective": "NL_use_skill"
+        }
+      }
+    },
+    {
+      "function": "minecraft:set_damage",
+      "damage": {
+        "type": "minecraft:score",
+        "target": {
+          "type": "minecraft:fixed",
+          "name": ".damage"
+        },
+        "score": "NL_use_skill",
+        "scale": 0.01
+      },
+      "add": false
+    }
+  ]
+  

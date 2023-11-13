@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "레드스톤",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "redstone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:redstone"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:system/pinned_item_slot/redstone/redstone_changed_adv"
+    }
+  }
+  

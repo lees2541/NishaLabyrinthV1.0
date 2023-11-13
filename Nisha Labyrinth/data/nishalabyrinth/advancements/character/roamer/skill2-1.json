@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:201002}"
+      },
+      "title": {
+        "text": "늑대",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "늑대에게 공격받은 탐험가는 경미한 피해를 입고 낙인이 1만큼 올라간다",
+        "color": "white",
+        "extra": [
+          "\n",
+          {
+            "text": "늑대는 공격후 사라진다",
+            "color": "white"
+          }
+        ]
+      },
+      "background": "roamer",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/roamer/skill2",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

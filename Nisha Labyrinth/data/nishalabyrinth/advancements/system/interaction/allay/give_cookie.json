@@ -1,0 +1,75 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:paper",
+      "nbt": "{CustomModelData:124312}"
+    },
+    "title": "쿠키!",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "nishalabyrinth:system/interaction/allay/interact_allay",
+  "criteria": {
+    "give_cookie": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "team": "explorer"
+        },
+        "item": {
+          "items": [
+            "minecraft:paper"
+          ],
+          "nbt": "{prison_key:1b}"
+        },
+        "entity": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:interaction",
+                  "nbt": "{Tags:[\"NL\",\"allay\",\"area\"]}",
+                  "vehicle": {
+                    "type": "minecraft:allay",
+                    "team": "NL_ex_only"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:interaction",
+                  "nbt": "{Tags:[\"NL\",\"allay\",\"area\"]}",
+                  "passenger": {
+                    "type": "minecraft:interaction",
+                    "nbt": "{Tags:[\"allay\",\"area\"]}"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "give_cookie"
+    ],
+    [
+      "impossible"
+    ]
+  ],
+  "rewards": {
+    "function": "nishalabyrinth:system/interaction/allay/give_cookie_adv"
+  }
+}

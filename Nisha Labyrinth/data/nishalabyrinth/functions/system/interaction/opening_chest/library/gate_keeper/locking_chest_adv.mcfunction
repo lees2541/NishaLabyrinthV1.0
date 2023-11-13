@@ -1,0 +1,1 @@
+schedule function nishalabyrinth:system/interaction/opening_chest/library/gate_keeper/locking_chest_advr 1s replace

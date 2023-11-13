@@ -1,0 +1,28 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "name": "탐험가의 곡괭이"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "lore": [
+        {
+          "text": "탐험가의 곡괭이",
+          "color": "white",
+          "bold": true
+        },
+        {
+          "text": "초보 탐험가의 필수품. ",
+          "color": "gray"
+        },
+        {
+          "text": "무게가 가볍고 튼튼해서 초보자가 쓰기에 딱이다.",
+          "color": "gray"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{NL:1b}"
+    }
+  ]

@@ -1,0 +1,2 @@
+execute as @a[advancements={nishalabyrinth:system/location/in_the_prison=true},predicate=!nishalabyrinth:system/prison/at_the_prison] run advancement revoke @s until nishalabyrinth:system/location/in_the_prison
+execute as @a[team=prisoner,nbt={SelectedItem:{id:"minecraft:bone_meal"}},nbt=!{SelectedItem:{tag:{CanPlaceOn:["minecraft:twisting_vines","minecraft:twisting_vines_plant"]}}}] run item modify entity @s weapon.mainhand nishalabyrinth:items/prison/bone_meal

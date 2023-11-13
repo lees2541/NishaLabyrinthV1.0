@@ -1,0 +1,53 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "asdfsafd",
+      "description": "",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "nbt": "{Inventory:[{Slot:7b,id:\"minecraft:redstone\"}]}"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Inventory:[{Slot:7b}]}"
+                  }
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "items": [
+                "minecraft:redstone"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:system/pinned_item_slot/redstone/replace_with_redstone_adv"
+    }
+  }
+  

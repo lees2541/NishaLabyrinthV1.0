@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:105001}"
+      },
+      "title": {
+        "text": "밤도둑(패시브)",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "배회자와의 거리가 1단계 감지범위 이상이면 은신이 된다",
+        "color": "white"
+      },
+      "background": "police",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/police/police",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -1,0 +1,32 @@
+[
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.25,
+    "add": true
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:riptide": -1
+    },
+    "add": true,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:trident"
+              ],
+              "durability": {
+                "min": 187
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

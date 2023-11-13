@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:written_book",
+      "nbt": "{CustomModelData:101001}"
+    },
+    "title": "검객",
+    "description": {
+      "text": "(구조형, 생존형)",
+      "color": "green",
+      "italic": true,
+      "extra": [
+        "\n",
+        {
+          "text": "[난이도 중]",
+          "color": "red"
+        },
+        "\n",
+        {
+          "text": "진화하는 무기를 이용해 방어하거나 팀원들을 구조하는 후반지향형 캐릭터 ",
+          "color": "white"
+        }
+      ]
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/explorer.png",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

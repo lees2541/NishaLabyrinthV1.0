@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:effects_changed",
+        "conditions": {
+          "player": {
+          },
+          "effects": {
+            "minecraft:glowing": {
+            "visible": true
+            }           
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:system/shader/gui/glowing"
+    }
+  }
+  

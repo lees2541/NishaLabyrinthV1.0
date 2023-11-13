@@ -1,0 +1,3 @@
+execute as @a[team=explorer,tag=swordsman,tag=ndef_mod,tag=def_mod,tag=1st_mod,tag=!2nd_mod,tag=!3rd_mod] run item modify entity @s weapon.mainhand nishalabyrinth:items/explorer/sm_s_wp1
+execute as @a[team=explorer,tag=swordsman,tag=ndef_mod,tag=def_mod,tag=1st_mod,tag=2nd_mod,tag=!3rd_mod] run item modify entity @s weapon.mainhand nishalabyrinth:items/explorer/sm_s_wp2
+execute as @a[team=explorer,tag=swordsman,tag=1st_mod,tag=2nd_mod,tag=3rd_mod] run item modify entity @s weapon.mainhand nishalabyrinth:items/explorer/sm_s_wp3

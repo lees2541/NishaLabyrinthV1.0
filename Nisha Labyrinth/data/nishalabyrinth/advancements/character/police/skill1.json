@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:emerald"
+      },
+      "title": "손전등(패시브)",
+      "description": {
+        "text": "일정 거리 내의 배회자를 비춰서 스턴시킨다. 배회자는 스턴 후 2초간 실명상태가 된다",
+        "color": "white",
+        "extra": [
+          "\n",
+          {
+            "text": "(2회)",
+            "color": "blue"
+          },
+          "\n",
+          {
+            "text": "손전등으로 스턴된 배회자는 30초간 손전등에 면역이 된다",
+            "color": "gray",
+            "italic": true
+          }
+        ]
+      },
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/police/police",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

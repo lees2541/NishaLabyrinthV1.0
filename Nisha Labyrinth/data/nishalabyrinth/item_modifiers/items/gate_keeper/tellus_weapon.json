@@ -1,0 +1,37 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 0.3,
+        "operation": "addition",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "",
+        "amount": 33,
+        "operation": "addition",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:loyalty": 1,
+      "minecraft:unbreaking": 5
+    },
+    "add": false
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{NL:1b}"
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{CanDestroy:[\"minecraft:soul_campfire\",\"minecraft:lime_concrete_powder\",\"minecraft:soul_lantern\",\"minecraft:soul_wall_torch\",\"minecraft:redstone_ore\",\"minecraft:repeater\",\"minecraft:soul_torch\",\"minecraft:wall_torch\"],NL:1b}"
+  }
+]

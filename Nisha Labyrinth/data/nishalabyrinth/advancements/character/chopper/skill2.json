@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cooked_porkchop"
+      },
+      "title": {
+        "text": "고기공장 (패시브)",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "생명석 채굴시 2개, 탐험가 공격시 1개의 수상한 고기를 얻는다",
+        "color": "white"
+      },
+      "background": "chopper",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/chopper/chopper",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

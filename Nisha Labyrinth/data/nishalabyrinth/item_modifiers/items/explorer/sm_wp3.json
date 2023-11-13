@@ -1,0 +1,57 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": "황천도"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "황천도(3 단계)",
+          "color": "blue",
+          "bold": true
+        },
+        {
+          "text": "스킬: 반격 (30초)",
+          "italic": false
+        },
+        {
+          "text": "긴급구조(1 생명석)",
+          "italic": false
+        },
+        {
+          "text": "배회자에게 가장 가까운 팀원에게 빙의 후 텔포한다",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "텔포 후 5초 내에 배회자와 부딪히면 배회자는 스턴된다.",
+          "color": "white",
+          "italic": true
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:nishalabyrinth"
+      },
+      "ops": [
+        {
+          "source": "sm_cool1",
+          "target": "cDamageMax",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{SM_wp:1b,CustomModelData:1003197,Disabled:0b,NL:1b}"
+    }
+  ]
+  

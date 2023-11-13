@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:totem_of_undying"
+      },
+      "title": "생명의 토템(들고 있을시 자동발동) ",
+      "description": {
+        "text": "주술사가 토템으로 부활 시 팀 전원에게 이속,나이트비전 버프를 부여한다",
+        "color": "white",
+        "extra": [
+          "\n",
+          {
+            "text": "양도가능",
+            "color": "white",
+            "italic": true
+          }
+        ]
+      },
+      "background": "magician",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/magician/magician",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

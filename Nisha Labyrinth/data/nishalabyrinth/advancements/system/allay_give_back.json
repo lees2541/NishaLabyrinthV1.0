@@ -1,0 +1,26 @@
+{..
+    "display": {
+      "icon": {
+        "item": "minecraft:allay_spawn_egg"
+      },
+      "title": "allay",
+      "description": "allay",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "allay": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:allay"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:system/allay/give_back_schedule"
+    }
+  }
+  

@@ -1,0 +1,29 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": "손전등"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "상대를 일정시간 비추어 스턴을 줄 수 있다 ",
+        "color": "white",
+        "bold": false,
+        "italic": true
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{flashlight:1b,Disabled:0b,CustomModelData:1033001,NL:1b}"
+  },
+  {
+    "function": "minecraft:set_damage",
+    "damage": 0.9,
+    "add": false
+  }
+]

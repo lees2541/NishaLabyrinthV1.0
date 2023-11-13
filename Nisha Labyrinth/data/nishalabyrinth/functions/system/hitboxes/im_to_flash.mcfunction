@@ -1,0 +1,1 @@
+tag @a[team=gate_keeper,tag=immune_flash] remove immune_flash

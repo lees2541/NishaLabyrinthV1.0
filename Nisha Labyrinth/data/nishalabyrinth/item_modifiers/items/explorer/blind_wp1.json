@@ -1,0 +1,25 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "박쥐 지팡이"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "맹인은 이것으로 주변사물을 파악하고, 박쥐를 조종한다",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:1003301,Disabled:0b,NL:1b}"
+    }
+  ]
+  

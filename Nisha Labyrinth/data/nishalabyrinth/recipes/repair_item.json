@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": [],
+    "base": {
+      "tag": "nishalabyrinth:repairable_item"
+    },
+    "addition": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "result": {
+      "item": "minecraft:iron_nugget",
+      "count": 1
+    }
+  }
+  

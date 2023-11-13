@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:302003}"
+      },
+      "title": "잠금",
+      "description": "상자를 잠궜습니다",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:system/interaction/opening_chest/library/gate_keeper/locking_chest_adv"
+    }
+  }
+  

@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:102001}"
+      },
+      "title": "주술사",
+      "description": {
+        "text": "(도주형)",
+        "color": "green",
+        "italic": true,
+        "extra": [
+          "\n",
+          {
+            "text": "[난이도 하]",
+            "color": "red"
+          },
+          "\n",
+          {
+            "text": "순간이동을 이용해 위급상황에서 탈출하고 생명의 토템으로 끈질기게 살아남는 캐릭터",
+            "color": "white"
+          }
+        ]
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/explorer.png",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

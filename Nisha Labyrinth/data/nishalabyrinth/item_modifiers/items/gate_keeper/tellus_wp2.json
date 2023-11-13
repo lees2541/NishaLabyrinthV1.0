@@ -1,0 +1,40 @@
+[
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:riptide": 1,
+        "minecraft:unbreaking": 5
+      },
+      "add": false,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:trident"
+                ],
+                "durability": {
+                  "min": 1,
+                  "max": 350
+                },
+                "enchantments": [
+                  {
+                    "enchantment": "minecraft:unbreaking",
+                    "levels": 5
+                  },
+                  {
+                    "enchantment": "minecraft:loyalty",
+                    "levels": 1
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

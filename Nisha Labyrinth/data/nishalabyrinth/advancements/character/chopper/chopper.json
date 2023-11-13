@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:203001}"
+      },
+      "title": "쵸퍼",
+      "description": {
+        "text": "(추적형)",
+        "color": "green",
+        "italic": true,
+        "extra": [
+          "\n",
+          {
+            "text": "[난이도: 하]",
+            "color": "red",
+            "italic": true
+          },
+          "\n",
+          {
+            "text": "계속 음식을 먹으며 추격하며 스킬로 강력한 한방을 주는 배회자",
+            "color": "white"
+          }
+        ]
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/gate_keeper.png",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

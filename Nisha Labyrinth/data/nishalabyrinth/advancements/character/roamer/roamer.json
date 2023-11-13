@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:201001}"
+      },
+      "title": "헌터",
+      "description": {
+        "text": "(제어형)",
+        "color": "green",
+        "italic": true,
+        "extra": [
+          "\n",
+          {
+            "text": "[난이도: 중]",
+            "color": "red",
+            "italic": true
+          },
+          "\n",
+          {
+            "text": "덫을 설치하고 덫을 밟거나 발광상태의 적에게 늑대를 풀어 추적하는 배회자 ",
+            "color": "white"
+          }
+        ]
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/gate_keeper.png",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

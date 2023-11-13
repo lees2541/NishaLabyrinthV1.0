@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:301001}"
+      },
+      "title": "스타터(패시브)",
+      "description": " 제단에 첫번째 흔적을 바치기 전까지 이동속도가 상승합니다.",
+      "background": "swordsman",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/swordsman/swordsman",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

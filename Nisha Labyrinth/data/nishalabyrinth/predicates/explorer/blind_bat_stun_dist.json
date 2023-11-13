@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:bat",
+      "distance": {
+        "horizontal": {
+          "min": 0,
+          "max": 1.8
+        }
+      }
+    }
+  }
+  

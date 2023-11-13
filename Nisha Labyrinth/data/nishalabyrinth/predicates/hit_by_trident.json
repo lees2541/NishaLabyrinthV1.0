@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:damage_source_properties",
+    "predicate": {
+      "is_projectile": true,
+      "source_entity": {
+        "type": "minecraft:player"
+      }
+    }
+  }
+  

@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:shield"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:item/skill/shield/hold_shield_adv"
+    }
+  }
+  

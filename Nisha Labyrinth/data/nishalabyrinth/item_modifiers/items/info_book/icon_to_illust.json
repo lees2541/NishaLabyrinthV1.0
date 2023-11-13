@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Icon:0b}"
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": "this",
+    "ops": [
+      {
+        "source": "Inventory[{Slot:8b}].tag.CMD.Illust",
+        "target": "CustomModelData",
+        "op": "replace"
+      }
+    ]
+  }
+]

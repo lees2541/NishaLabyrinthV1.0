@@ -1,0 +1,1 @@
+#execute as @a[team=explorer,tag=police,nbt={SelectedItem:{id:"minecraft:iron_nugget"}}] run function nishalabyrinth:character_functions/police/fix_flashlight

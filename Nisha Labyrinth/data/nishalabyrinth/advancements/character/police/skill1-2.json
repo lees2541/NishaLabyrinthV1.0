@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:emerald"
+      },
+      "title": {
+        "text": "부서진 손전등",
+        "color": "dark_gray",
+        "bold": true
+      },
+      "description": {
+        "text": "생명석과 조합해 복원할 수 있다",
+        "color": "white"
+      },
+      "background": "police",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/police/skill1",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

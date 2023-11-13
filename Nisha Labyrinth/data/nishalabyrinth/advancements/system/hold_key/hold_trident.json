@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:trident"
+      },
+      "title": "",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:trident"
+            ],
+            "nbt": "{NL:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:system/skill_method/hold_key/hold_trident"
+    }
+  }
+  

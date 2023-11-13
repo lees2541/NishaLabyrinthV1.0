@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#bonus"
+          },
+          "score": "NL_lifestone_bonus",
+          "scale": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lapis_lazuli",
+            "functions": [
+              {
+                "function": "minecraft:reference",
+                "name": "nishalabyrinth:items/lifestone"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

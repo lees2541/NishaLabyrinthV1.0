@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:paper"
+      },
+      "title": {
+        "text": "의뢰모집(패시브)",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "생명석을 캘 시, 팀원들은 의뢰서를 하나 얻습니다",
+        "color": "white",
+        "extra": [
+          "\n",
+          {
+            "text": "의뢰서로 용병을 타격시, 용병은 일정시간동안 의뢰를 받습니다. 그 순간 의뢰자는 잠시동안 약간의 보호막을 얻습니다"
+          }
+        ]
+      },
+      "background": "soldier",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/soldier/soldier",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

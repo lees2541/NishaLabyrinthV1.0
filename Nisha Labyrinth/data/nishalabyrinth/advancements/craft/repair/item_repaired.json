@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:warped_fungus_on_a_stick",
+        "nbt": "{CustomModelData:1234}"
+      },
+      "title": "수리",
+      "description": "아이템을 수리했습니다",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_crafted",
+        "conditions": {
+          "player": {
+            "team": "explorer"
+          },
+          "recipe_id": "nishalabyrinth:repair_item"
+        }
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:item/craft/repair_item_craft"
+    }
+  }
+  

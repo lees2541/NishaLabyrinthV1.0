@@ -1,0 +1,40 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:202002}"
+      },
+      "title": {
+        "text": "상처(패시브)",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "탐험가에게 대미지를 주면 ",
+        "color": "white",
+        "extra": [
+          {
+            "text": "[상처]",
+            "color": "dark_red",
+            "bold": true
+          },
+          {
+            "text": "디버프를 부여합니다.",
+            "color": "white"
+          }
+        ]
+      },
+      "background": "sniffer",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/sniffer/sniffer",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

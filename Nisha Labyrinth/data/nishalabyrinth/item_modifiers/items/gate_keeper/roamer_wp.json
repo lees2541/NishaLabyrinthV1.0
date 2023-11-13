@@ -1,0 +1,78 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": "검은 철의 나이프"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "검은 철의 나이프",
+        "color": "dark_gray",
+        "bold": true
+      },
+      {
+        "text": "대미지: 중간.",
+        "color": "white"
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "무기 기술 : 수확",
+        "color": "white"
+      },
+      {
+        "text": "<F 발동> 설치한 덫을 모두 회수한다.",
+        "color": "dark_gray"
+      },
+      {
+        "text": "헌터가 애용하는 칠흑의 나이프.",
+        "color": "gray"
+      },
+      {
+        "text": "굉장히 날카로워 단번에 사냥감의 숨통을 끊는다.",
+        "color": "gray"
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "name": "",
+        "amount": 0.3,
+        "operation": "addition",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "name": "",
+        "amount": 30,
+        "operation": "addition",
+        "slot": "mainhand"
+      }
+    ]
+  },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:nishalabyrinth"
+      },
+      "ops": [
+        {
+          "source": "rm_cool1",
+          "target": "cDamageMax",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CanDestroy:[\"minecraft:lime_concrete_powder\",\"minecraft:soul_campfire\"],CustomModelData:1005252,ceremonialknife:1b,NL:1b}"
+    }
+  ]
+  

@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "트랩에 걸림",
+      "description": "지속되는동안 다른트랩에 안걸리도록 함",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "nishalabyrinth:character_functions/roamer/got_trapped"
+    }
+  }
+  

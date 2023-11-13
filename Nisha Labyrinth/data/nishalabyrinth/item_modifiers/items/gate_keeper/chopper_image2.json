@@ -1,0 +1,24 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "쵸퍼"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "추적형",
+          "color": "green",
+          "italic": true
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:203002,NL:1b}"
+    }
+  ]
+  

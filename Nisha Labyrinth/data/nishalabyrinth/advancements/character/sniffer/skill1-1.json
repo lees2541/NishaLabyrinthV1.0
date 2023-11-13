@@ -1,0 +1,50 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:202002}"
+      },
+      "title": {
+        "text": "상처(패시브)",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "[상처]",
+        "color": "dark_red",
+        "bold": true,
+        "extra": [
+          {
+            "text": "디버프에 걸린 적은 일정시간마다 피냄새 흔적을 남깁니다",
+            "color": "white",
+            "extra": [
+              "\n"
+            ]
+          },
+          {
+            "text": "[상처]",
+            "color": "dark_red",
+            "bold": true,
+            "extra": [
+              {
+                "text": " 디버프는 죽거나, 생명석을 캐면 사라집니다",
+                "color": "white"
+              }
+            ]
+          }
+        ]
+      },
+      "background": "sniffer",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/sniffer/skill1",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

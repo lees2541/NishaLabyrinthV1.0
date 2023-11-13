@@ -1,0 +1,1 @@
+kill @e[type=wolf,tag=pet]

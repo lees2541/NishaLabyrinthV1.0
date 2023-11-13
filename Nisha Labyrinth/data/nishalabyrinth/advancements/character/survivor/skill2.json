@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:103002}"
+      },
+      "title": {
+        "text": "위험감지(패시브)",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "배회자의 거리가 1단계 위협감지 범위일떄, 이동속도가 증가한다",
+        "color": "white"
+      },
+      "background": "survivor",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/survivor/survivor",
+    "criteria": {
+      ".": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

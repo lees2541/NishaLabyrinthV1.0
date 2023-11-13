@@ -1,0 +1,1 @@
+tp @a[team=gate_keeper] 687 22 612 -90 0 

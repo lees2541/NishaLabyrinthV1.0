@@ -1,0 +1,52 @@
+[
+    {
+      "function": "minecraft:set_attributes",
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "name": "",
+          "amount": 0.3,
+          "operation": "addition",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.attack_speed",
+          "name": "",
+          "amount": 31,
+          "operation": "addition",
+          "slot": "mainhand"
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "name": "",
+          "amount": -0.01,
+          "operation": "addition",
+          "slot": "mainhand"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "minecraft:nishalabyrinth"
+      },
+      "ops": [
+        {
+          "source": "cp_cool1",
+          "target": "cDamageMax",
+          "op": "replace"
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "오미넌스 하커"
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:1004935,sniffer_scythe:1b,CanDestroy:[\"minecraft:lime_concrete_powder\",\"minecraft:soul_campfire\"],NL:1b}"
+    }
+  ]
+  

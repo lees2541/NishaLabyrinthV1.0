@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "minecraft:warped_fungus_on_a_stick"
+    },
+    "addition": {
+        "item": "minecraft:lapis_lazuli"
+    },
+    "result": {
+        "item": "minecraft:iron_nugget"
+    }
+}

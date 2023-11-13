@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "group": "survivor",
+    "ingredient": {
+      "item": "minecraft:sweet_berries"
+    },
+    "result": "minecraft:golden_apple",
+    "experience": 0,
+    "cookingtime": 900
+  }
+  

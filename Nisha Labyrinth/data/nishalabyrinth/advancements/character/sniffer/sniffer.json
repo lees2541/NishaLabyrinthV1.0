@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:written_book",
+        "nbt": "{CustomModelData:202001}"
+      },
+      "title": "스니퍼",
+      "description": {
+        "text": "(추적형)",
+        "color": "green",
+        "italic": true,
+        "extra": [
+          "\n",
+          {
+            "text": "[난이도: 상]",
+            "color": "red",
+            "italic": true
+          },
+          "\n",
+          {
+            "text": "상처를 입은 탐험가가 흘리는 피를 따라가면서 끈질기게 추격하는 배회자",
+            "color": "white"
+          }
+        ]
+      },
+      "background": "minecraft:textures/gui/advancements/backgrounds/gate_keeper.png",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

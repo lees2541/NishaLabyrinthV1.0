@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cooked_beef"
+      },
+      "title": {
+        "text": "끝없는 허기 (패시브)",
+        "color": "blue"
+      },
+      "description": {
+        "text": "일반 음식을 먹으면 18초간 이동속도 적당히 증가",
+        "color": "white"
+      },
+      "background": "chopper",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "nishalabyrinth:character/chopper/skill1",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

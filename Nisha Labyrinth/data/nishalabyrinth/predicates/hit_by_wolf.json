@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:damage_source_properties",
+    "predicate": {
+      "direct_entity": {
+        "type": "minecraft:wolf",
+        "nbt": "{Tags:[\"pet\"]}"
+      }
+    }
+  }
+  

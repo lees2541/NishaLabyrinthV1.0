@@ -1,0 +1,24 @@
+[
+    {
+      "function": "minecraft:set_name",
+      "entity": "this",
+      "name": "헌터"
+    },
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "제어형",
+          "color": "green",
+          "italic": true
+        }
+      ],
+      "replace": true
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:201001,NL:1b,Icon:1b,CMD:{Icon:201001,Illust:201003}}"
+    }
+  ]
+  

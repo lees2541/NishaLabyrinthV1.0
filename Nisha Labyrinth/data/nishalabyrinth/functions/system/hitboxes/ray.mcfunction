@@ -1,6 +1,6 @@
 #particle crit ~ ~ ~ 0 0 0 0 1
 execute as @a[dx=0,team=gate_keeper] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run effect give @s glowing 5 0 true
-execute as @a[dx=0,team=gate_keeper] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run effect give @s slowness 1 0
+#execute as @a[dx=0,team=gate_keeper] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run effect give @s slowness 1 0
 #execute as @a[dx=0,team=gate_keeper] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] run effect give @s hero_of_the_village 1
 execute as @a[dx=0,team=gate_keeper] positioned ~-0.99 ~-0.99 ~-0.99 if entity @s[dx=0] as @a[team=explorer,tag=police] run effect give @a[team=explorer,tag=police] speed 1 1
 

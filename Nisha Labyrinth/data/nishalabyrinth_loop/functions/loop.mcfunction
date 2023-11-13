@@ -128,7 +128,7 @@ execute as @a[team=gate_keeper,scores={gk_attack=1..},limit=1,tag=!atk_stun,tag=
 
 
 
-execute at @a[team=explorer] run effect give @a[team=gate_keeper, distance=..9] glowing 3 1 true
+execute as @a[team=explorer] at @s run effect give @a[team=gate_keeper, distance=..12] glowing 3 1 true
 ##########
 execute if score r NL_loop_check matches 1 run say 틱루프작동됨
 scoreboard players set r NL_loop_check 0

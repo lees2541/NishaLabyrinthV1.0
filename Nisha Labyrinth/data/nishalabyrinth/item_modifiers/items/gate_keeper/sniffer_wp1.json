@@ -19,7 +19,7 @@
         {
           "attribute": "minecraft:generic.movement_speed",
           "name": "",
-          "amount": -0.01,
+          "amount": 0.0,
           "operation": "addition",
           "slot": "mainhand"
         }

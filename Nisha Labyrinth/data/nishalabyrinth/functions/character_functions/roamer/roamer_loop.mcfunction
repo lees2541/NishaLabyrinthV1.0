@@ -9,11 +9,11 @@ execute as @e[type=glow_item_frame,tag=NL_used,nbt={Item:{id:"minecraft:egg"},It
 
 ##roamer 2
 
-execute as @a[team=gate_keeper,tag=roamer,scores={num_of_trap=1..}] at @s if entity @e[type=minecraft:glow_item_frame,distance=..3,tag=!NL_used,nbt={ItemRotation:1b,Item:{id:"minecraft:bamboo"}}] run data merge entity @e[limit=1,type=glow_item_frame,distance=..3,nbt={ItemRotation:1b,Item:{id:"minecraft:bamboo"}}] {Item:{id:"minecraft:bowl",Count:1b},Tags:["NL_used","NL"]}
-execute as @a[team=gate_keeper,tag=roamer,scores={num_of_trap=1..}] at @s if entity @e[type=minecraft:glow_item_frame,distance=..3,tag=NL_used,nbt={ItemRotation:1b,Item:{id:"minecraft:bowl"}}] run scoreboard players remove @a[team=gate_keeper,tag=roamer] num_of_trap 1
-execute as @a[team=gate_keeper,tag=roamer] at @s if entity @e[type=minecraft:glow_item_frame,distance=..3,nbt={ItemRotation:1b,Item:{id:"minecraft:bowl"}},tag=NL_used] run data merge entity @e[sort=nearest,limit=1,type=glow_item_frame,distance=..3,nbt={ItemRotation:1b,Item:{id:"minecraft:bowl"}}] {ItemRotation:0b,Item:{id:"minecraft:egg",Count:1b,tag:{CustomModelData:10002}},Tags:["NL_used","NL"]}
-execute as @e[type=glow_item_frame,nbt={Item:{id:"minecraft:egg",tag:{CustomModelData:10002}}}] at @s if entity @a[team=explorer,distance=..4] run data merge entity @s {Item:{tag:{CustomModelData:10001}}}
-execute as @e[type=glow_item_frame,nbt={Item:{id:"minecraft:egg",tag:{CustomModelData:10001}}}] at @s unless entity @a[team=explorer,distance=..4] run data merge entity @s {Item:{tag:{CustomModelData:10002}}}
+execute as @a[team=gate_keeper,tag=roamer,scores={num_of_trap=1..}] at @s if entity @e[type=minecraft:glow_item_frame,distance=..2,tag=!NL_used,nbt={ItemRotation:1b,Item:{id:"minecraft:bamboo"}}] run data merge entity @e[limit=1,type=glow_item_frame,distance=..2,nbt={ItemRotation:1b,Item:{id:"minecraft:bamboo"}}] {Item:{id:"minecraft:bowl",Count:1b},Tags:["NL_used","NL"]}
+execute as @a[team=gate_keeper,tag=roamer,scores={num_of_trap=1..}] at @s if entity @e[type=minecraft:glow_item_frame,distance=..2,tag=NL_used,nbt={ItemRotation:1b,Item:{id:"minecraft:bowl"}}] run scoreboard players remove @a[team=gate_keeper,tag=roamer] num_of_trap 1
+execute as @a[team=gate_keeper,tag=roamer] at @s if entity @e[type=minecraft:glow_item_frame,distance=..2,nbt={ItemRotation:1b,Item:{id:"minecraft:bowl"}},tag=NL_used] run data merge entity @e[sort=nearest,limit=1,type=glow_item_frame,distance=..2,nbt={ItemRotation:1b,Item:{id:"minecraft:bowl"}}] {ItemRotation:0b,Item:{id:"minecraft:egg",Count:1b,tag:{CustomModelData:10002}},Tags:["NL_used","NL"]}
+execute as @e[type=glow_item_frame,nbt={Item:{id:"minecraft:egg",tag:{CustomModelData:10002}}}] at @s if entity @a[team=explorer,distance=..5] run data merge entity @s {Item:{tag:{CustomModelData:10001}}}
+execute as @e[type=glow_item_frame,nbt={Item:{id:"minecraft:egg",tag:{CustomModelData:10001}}}] at @s unless entity @a[team=explorer,distance=..5] run data merge entity @s {Item:{tag:{CustomModelData:10002}}}
 
 
 ## 탐험가가 트랩 범위 안에 들어갔을때
